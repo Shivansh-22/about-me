@@ -1,0 +1,139 @@
+.top-container{
+    background-color:#EAF6F6;
+    position: relative;
+    padding-top: 100px;
+  }
+  body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;/*if written in body than everything in body including h1 which already has 4 em already applied will add size of 2em;*/
+  }
+  h2{
+    padding-bottom: 50px;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin: 50px auto 0 auto;
+    font-weight: normal;
+  }
+  h3{
+    color:  #11999E;
+    font-family: 'Montserrat', sans-serif;
+  }
+  h1{
+    line-height: 2;/*increases the gap between the words on all 4 sides*/
+    color:  #66BFBF;
+    font-size: 5rem;/*100% means 16px so to calculate (90/16)*100----we can also use em as unit for font size.1 em=16px*/
+    margin-top: 0;/*rem will ignore upstream font size written in body.It is the most reliable.*/
+  font-family: 'Dancing Script', cursive;
+  }
+  .middle-container{
+    margin: 100px 0;
+  
+  }
+  .bottom-container{
+    background-color: #66BFBF;
+    margin-top: 100px;
+    padding:50px 0 20px;
+  }
+  .web{
+    text-decoration: underline;
+  }
+  .bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+  }
+  .top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+  }
+  .btn{
+    color:#11999E;
+    text-decoration: none;
+  }
+  .skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  .web-developer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+  }
+  .coding{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+  }
+  .profilepic{
+    width:15%;
+    border-radius: 50%;
+  }
+  .skill1{
+    clear: left;/*ignores the function of float in css*/
+  }
+  .skill2{
+    clear: right;
+  }
+  .hello{
+    margin:auto 30% auto 30%;
+  }
+  hr{
+    width: 4%;
+    border-style: dotted; color: #EAF6F6;
+    border-width: 6px;
+    border-bottom: none;
+    margin:100px auto;
+  
+  }
+  .name{
+    color: #EAF6F6;
+  }
+  .footer-link{
+    color: #11999E;
+    text-decoration: none;
+    line-height:2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+  }
+  .mail{
+    width: 40%;
+      margin:auto 30% auto 30%;
+      margin-bottom: 100px;}
+      .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -moz-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -ms-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: -o-linear-gradient(top, #11cdd4, #2980b9);
+    background-image: linear-gradient(to bottom, #11cdd4, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:'Montserrat', sans-serif; ;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .footer-link:hover{
+    color: white;
+  }
